@@ -1,5 +1,3 @@
-import React from 'react'
-import ControlPanel from './components/COntrolPanel'
 import HomePage from './pages/HomePage'
 
 const App = () => {
