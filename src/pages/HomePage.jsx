@@ -8,6 +8,7 @@ const HomePage = () => {
   return (
     <div className='min-h-screen bg-gradient-to-br from-green-300 to-purple-300 flex flex-col gap-8 items-center justify-center'>
       <h1 className='text-white font-medium text-5xl text-center'>{data.poolName}</h1>
+      <h1>Darpan</h1>
       <p className='text-white text-center'>{data.instructions}</p>
       <div className='flex flex-wrap gap-8 justify-center'>
         {data.machines.map((item) => (
