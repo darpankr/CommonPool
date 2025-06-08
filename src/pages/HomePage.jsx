@@ -10,6 +10,7 @@ const HomePage = () => {
       <h1 className='text-white font-medium text-5xl text-center'>{data.poolName}</h1>
       <h1>Darpan</h1>
       <h1>Testing</h1>
+      <h1>Test 3</h1>
       <p className='text-white text-center'>{data.instructions}</p>
       <div className='flex flex-wrap gap-8 justify-center'>
         {data.machines.map((item) => (
